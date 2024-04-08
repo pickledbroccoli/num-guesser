@@ -14,3 +14,8 @@ const compareGuesses = (humanGuess, computerGuess, target) => Math.abs(humanGues
 function updateScore(winner) {
     (winner === 'human') ? humanScore++ : computerScore++;
 }
+
+// update round number
+function advanceRound() {
+    currentRoundNumber++;
+}
